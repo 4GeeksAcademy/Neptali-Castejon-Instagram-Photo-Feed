@@ -1,0 +1,73 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+}
+.nav-bar{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    width: 470px;
+}
+.cards-article {
+    width: 470px;
+    margin: 50px 0;
+}
+.cards { 
+    background-color: white;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.card-title {
+    font-weight: 600;
+    margin: 0;
+}
+.publication-date {
+    color: rgb(219, 219, 219); 
+    margin: 0;
+}
+.card-img img {
+    width: 100%;
+    height: auto;
+}
+.card-text {
+    margin: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.card-text p {
+    margin: 0;
+}
+.card-comment {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+textarea {
+    /* Quitar bordes */
+    border: none;
+    /* Quitar bordes de esquina */
+    border-radius: 0;
+    /* Quitar resaltado de foco */
+    outline: none;
+    /* Quitar las líneas de esquina (resize) por defecto */
+    resize: none;
+    /* Estilo adicional */
+    color: rgb(115, 115, 115); 
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box; 
+}
